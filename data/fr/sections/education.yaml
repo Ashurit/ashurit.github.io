@@ -1,0 +1,91 @@
+# section information
+section:
+  name: Cursus
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: Campus IPI - Blagnac
+    icon: fa-graduation-cap
+    timeframe: 2019-2021
+    institution:
+      name: Master CPIL (Chef de projets en ingénierie logicielle)
+      url: "https://www.ipi-ecoles.com/chef-de-projet-informatique/"
+      logo:
+  - name: Campus IPI - Blagnac
+    icon: fa-university
+    timeframe: 2018-2019
+    institution:
+      name: Licence CDAN (Concepteur développeur d'application Numériques)
+      url: "https://www.ipi-ecoles.com/concepteur-developpeur-applications/"
+      logo:
+    grade:
+      scale: Félicitations du jury
+  - name: Lycée Jean Lurçat - Perpignan
+    icon: fa-university
+    timeframe: 2016-2018
+    institution:
+      name: BTS SIO (Services Informatiques aux Organisations)
+      url: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"
+      logo:
+  - name: Lycée François Arago - Perpignan
+    icon: fa-school
+    timeframe: 2013-2016
+    institution:
+      name: Bac Général Scientifique
+      url: "https://francois-arago.mon-ent-occitanie.fr/"
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      courses:
+        - name: Spécialité - Informatique et Sciences du Numérique
+  # - name: B.Sc. in Computer Science & Engineering
+  #   icon: fa-graduation-cap
+  #   timeframe: 2012-2016
+  #   institution:
+  #     name: University of XYZ
+  #     url: "#"
+  #     logo: /images/sections/education/university.jpg
+  #     # Can optionally show a different logo for dark theme
+  #     # darkLogo: /images/sections/education/university.jpg
+  #   grade: #(optional)
+  #     scale: CGPA
+  #     achieved: 3.5
+  #     outOf: 4
+  #   takenCourses: #(optional)
+  #     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #     showGrades: true
+  #     collapseAfter: 3
+  #     courses:
+  #       - name: Data Structures and Algorithm
+  #         achieved: 3.75
+  #         outOf: 4
+  #       - name: Network Security
+  #         achieved: 3.80
+  #         outOf: 4
+  #       - name: Operating System
+  #         achieved: 3.5
+  #         outOf: 4
+  #       - name: Artificial Intelligent
+  #         achieved: 3.75
+  #         outOf: 4
+  #   publications: #(optional)
+  #     - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #       url: "#"
+  #     - title: Fusce eu augue ut odio porttitor pulvinar.
+  #       url: "#"
+  #   extracurricularActivities: #(optional)
+  #     - In vitae facilisis est, eget porta sem.
+  #     - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  #     - Duis sed massa feugiat, ornare justo et, aliquam est.
+  #     - Pellentesque ut fringilla magna.
+  #   customSections: #(optional)
+  #     - name: Thesis
+  #       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #     - name: Supervisor
+  #       content: Fusce eu augue ut odio porttitor pulvinar.

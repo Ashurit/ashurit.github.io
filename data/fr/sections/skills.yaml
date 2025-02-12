@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  hideTitle: false
+
+# filter buttons
+buttons:
+  - name: Toutes
+    filter: "all"
+  - name: Technologies
+    filter: "tech"
+  - name: Méthodes
+    filter: "method"
+  - name: Autres
+    filter: "other"
+
+skills:
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "J'ai toujours travaillé dans un environnement de développement décentralisé, principalement au travers de GitHub et GitLab"
+    categories: ["tech"]
+    url: "https://git-scm.com/"
+
+  - name: Angular
+    logo: /images/sections/skills/angular.png
+    summary: "Mon chouchou, parmis les meilleurs framework front en JS à ce jour ! Fort de 6 ans d'expérience en Angular, je suis capable de créer un projet from-scratch, maintenable et respectant les bonnes pratiques"
+    categories: ["tech"]
+    url: "https://angular.dev/"
+
+  - name: JavaScript
+    logo: /images/sections/skills/javascript.png
+    summary: "Angular oblige, JS est mon langage de programmation de prédilection dans mon travail. Sa structure simple, son sucre syntaxique et sa large utilisation en font un langage de choix"
+    categories: ["tech"]
+
+  - name: TypeScript
+    logo: /images/sections/skills/typescript.png
+    summary: "Préférant développer dans un environnement objet strictement typé pour une meilleure robustesse. Je préconise toujours l'utilisation de Typescript dans mes projets"
+    categories: ["tech"]
+
+  - name: Node.js
+    logo: /images/sections/skills/nodejs.png
+    summary: "Je manipule les basiques de la plateforme de sorte à être autonome tant côté front-end que back-end"
+    categories: ["tech"]
+
+  - name: Agile
+    logo: /images/sections/skills/agile.png
+    summary: "Formé et convaincu par la méthode Agile. J'essaye d'appliquer et transmettre ses principes au quotidien"
+    categories: ["method"]
+
+  - name: SCRUM
+    logo: /images/sections/skills/scrum.png
+    summary: "Formé et expérimenté en SCRUM, j'ai essentiellement travaillé dans des équipes tranvaillant dans ce framework"
+    categories: ["method"]
+
+  - name: GitFlow
+    logo: /images/sections/skills/gitflow.png
+    summary: "Je suis habitué à mettre en place et suivre GitFlow dans mes équipes"
+    categories: ["method"]
