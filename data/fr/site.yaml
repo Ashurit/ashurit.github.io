@@ -7,7 +7,7 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Curriculum vitae de Loïc LABEDE, développeur full-stack
+description: Portfolio de Loïc LABEDE, développeur full-stack
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -24,6 +24,6 @@ customMenus:
 openGraph:
   title: Loïc LABEDE
   type: website
-  description: Curriculum vitae de Loïc LABEDE
+  description: Portfolio de Loïc LABEDE
   image: images/author/loic.png
   url: https://ashurit.github.io
