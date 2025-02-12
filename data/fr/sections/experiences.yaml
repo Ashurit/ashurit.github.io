@@ -1,0 +1,101 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: Sopra Steria
+      url: "https://www.example.com"
+      location: Toulouse
+      logo: /images/sections/experiences/soprasteria.png
+      darkLogo: /images/sections/experiences/soprasteria_white.png
+      overview: Historique de mes différentes missions
+    positions:
+      - designation: Ingénieur d'études
+        start: Oct. 2024
+        responsibilities:
+          - Rôle de développeur Front-End
+          - Mise en place d'un projet Angular "from scratch" en autonomie dans le cadre d'un MVP
+          - Implémentation de l'architecture du front-end, des composants core et des écrans (sur maquettes)
+          - Force de proposition concernant les interfaces et l'expérience utilisateur (UI/UX)
+          - Intégration et utilisation du design system client
+          - Implémentation des tests unitaires
+
+      - designation: Ingénieur d'études
+        start: Avr. 2022
+        end: Oct. 2024
+        responsibilities:
+          - Rôle de développeur full-stack & mise en situation de responsable technique
+          - Conception, estimation, découpage et développement de nouvelles fonctionnalités & implémentation de correctifs
+          - Force de proposition concernant les interfaces et l'expérience utilisateur (UI/UX)
+          - Gestion de l'obsolescence du projet et des montées de version (Openshift / Angular)
+          - Constat et amélioration des processus de gestion de configuration (Gitflow et Pull-Requests)
+          - Centralisation de la connaissance (confluence) et partage des bonnes pratiques
+          - Suivi, revues de code et support des profils juniors de l'équipe
+          - Gestion des développements, déploiements et livraisons
+
+      - designation: Ingénieur débutant
+        start: Août 2021
+        end: Avr. 2022
+        responsibilities:
+          - Rôle de développeur full-stack débutant
+          - Développement de fonctionnalités & implémentation de correctifs
+          - Participation aux estimations et raffinement des besoins
+          - Force de proposition sur les interfaces et l'expérience utilisateur (UI/UX)
+          - Réalisation de documentations
+
+  - company:
+      name: Sopra Steria
+      url: "https://www.example.com"
+      location: Toulouse
+      logo: /images/sections/experiences/soprasteria.png
+      darkLogo: /images/sections/experiences/soprasteria_white.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/experiences/company1.jpg
+      # company overview
+      overview: Alternance dans le cadre de ma licence et mon master
+    positions:
+      - designation: Alternant en développement et gestion de projet
+        start: Oct. 2019
+        end: Juil. 2021
+        responsibilities:
+          - Participation aux sessions de raffinement et d'estimations des besoins
+          - Force de proposition sur les interfaces et l'expérience utilisateur (UI/UX)
+          - Développement de fonctionnalités
+          - Réalisation de documentations
+          - Animation de réunions et cérémonies agiles
+          - Gestion et suivi du travail en cours et du reste à faire
+          - Création de supports visuels et de communication
+
+      - designation: Alternant développeur d'applications numériques
+        start: Oct. 2018
+        end: Sept. 2019
+        responsibilities:
+          - Travail suivant la méthode agile (Framework SCRUM)
+          - Développement de fonctionnalités en tout ou partie
+          - Correction de bugs
+          - Conception et réalisation d'un moteur de tests fonctionnels de non régression via Protractor
+          - Intégration via Jenkins
+          - Réalisation de documentations
+
+  - company:
+      name: Agence point com
+      url: "https://agencepoint.com/"
+      location: Perpignan
+      logo: /images/sections/experiences/agencepointcom.jpg
+      overview: Participation au développement des fonctionnalités d'un site web
+    positions:
+      - designation: Stagiaire en développement web
+        start: Juin 2017
+        end: Juil. 2017
+        responsibilities:
+          - Participation à la réalisation d'un site web vitrine pour un client, sous WordPress.
+          - Rencontre avec divers clients acquis et potentiels.
+          - Découverte de notions de référencement web (SEO)
