@@ -68,18 +68,28 @@ badges:
 
   - type: soft-skill-indicator
     name: Autonomie
-    percentage: 80
+    percentage: 85
     color: blue
 
   - type: soft-skill-indicator
     name: Travail en équipe
-    percentage: 90
+    percentage: 95
     color: yellow
 
   - type: soft-skill-indicator
     name: Curiosité
-    percentage: 85
+    percentage: 75
     color: orange
+
+  - type: soft-skill-indicator
+    name: Consomation de café
+    percentage: 100
+    color: "#6F4E37"
+
+  - type: soft-skill-indicator
+    name: Rigueur
+    percentage: 90
+    color: green
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
