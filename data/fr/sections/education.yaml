@@ -14,18 +14,39 @@ degrees:
     icon: fa-graduation-cap
     timeframe: 2019-2021
     institution:
-      name: Master CPIL (Chef de projets en ingénierie logicielle)
+      name: Master CPIL (Chef de projets ingénierie logicielle)
       url: "https://www.ipi-ecoles.com/chef-de-projet-informatique/"
       logo:
+    takenCourses:
+      showGrades: false
+      courses:
+        - name: Conception et Développement
+        - name: Management de projet
+        - name: Gérer les processus et la qualité
+        - name: Gérer les ressources du projet
+        - name: Communication
+    customSections:
+      - name: Certification professionnelle
+        content: Titre certifié "Directeur des projets informatiques" inscrit au RNCP au Niveau 7 - code NSF 326
+
   - name: Campus IPI - Blagnac
     icon: fa-university
     timeframe: 2018-2019
     institution:
-      name: Licence CDAN (Concepteur développeur d'application Numériques)
+      name: Licence CDAN (Concepteur développeur d'applications Numériques)
       url: "https://www.ipi-ecoles.com/concepteur-developpeur-applications/"
       logo:
-    grade:
-      scale: Félicitations du jury
+    takenCourses:
+      showGrades: false
+      courses:
+        - name: Développement de modules Front & Back
+        - name: Conception, modélisation, méthodes
+        - name: Bases de données et Data Management
+        - name: Gestion de projet et communication
+    customSections:
+      - name: Certification professionnelle
+        content: Titre certifié "Concepteur développeur d'applications numériques" inscrit au RNCP au Niveau 6 - code NSF 326
+
   - name: Lycée Jean Lurçat - Perpignan
     icon: fa-university
     timeframe: 2016-2018
@@ -33,17 +54,26 @@ degrees:
       name: BTS SIO (Services Informatiques aux Organisations)
       url: "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers"
       logo:
+    customSections:
+      - name: Option
+        content: SLAM (Solutions Logicielles et Applications Métiers)
+    takenCourses:
+      showgrades: false
+      courses:
+        - name: Support et mise à disposition de services informatiques
+        - name: Conception et développement d'applications
+        - name: Cybersécurité des services informatiques
+
   - name: Lycée François Arago - Perpignan
     icon: fa-school
     timeframe: 2013-2016
     institution:
-      name: Bac Général Scientifique
+      name: Bac Général Scientifique - Spé. SVT
       url: "https://francois-arago.mon-ent-occitanie.fr/"
-    takenCourses: #(optional)
-      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-      showGrades: false
-      courses:
-        - name: Spécialité - Informatique et Sciences du Numérique
+    customSections:
+      - name: Option
+        content: Informatique et Sciences du Numérique
+
   # - name: B.Sc. in Computer Science & Engineering
   #   icon: fa-graduation-cap
   #   timeframe: 2012-2016

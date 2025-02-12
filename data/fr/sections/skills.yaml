@@ -39,7 +39,7 @@ skills:
 
   - name: TypeScript
     logo: /images/sections/skills/typescript.png
-    summary: "Préférant développer dans un environnement objet strictement typé pour une meilleure robustesse. Je préconise toujours l'utilisation de Typescript dans mes projets"
+    summary: "Préférant développer dans un environnement objet strictement typé pour une meilleure robustesse, je préconise toujours l'utilisation de Typescript dans mes projets"
     categories: ["tech"]
 
   - name: Node.js
@@ -49,7 +49,7 @@ skills:
 
   - name: Agile
     logo: /images/sections/skills/agile.png
-    summary: "Formé et convaincu par la méthode Agile. J'essaye d'appliquer et transmettre ses principes au quotidien"
+    summary: "Formé et convaincu par la méthode Agile, j'essaye d'appliquer et transmettre ses principes au quotidien"
     categories: ["method"]
 
   - name: SCRUM
