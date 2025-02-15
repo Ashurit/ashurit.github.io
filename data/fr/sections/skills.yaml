@@ -28,9 +28,14 @@ skills:
 
   - name: Angular
     logo: /images/sections/skills/angular.png
-    summary: "Mon chouchou, parmis les meilleurs framework front en JS à ce jour ! Fort de 6 ans d'expérience en Angular, je suis capable de créer un projet from-scratch, maintenable et respectant les bonnes pratiques."
+    summary: "Mon chouchou parmis les framework front-end en JS. Fort de plusieurs années d'expérience en Angular, je maitrise sa structure et suis capable de créer des applications performantes et maintenables en appliquant les bonnes pratiques. Toujours à l'affût des nouveautés pour améliorer mes projets."
     categories: ["tech"]
     url: "https://angular.dev/"
+
+  - name: Agile
+    logo: /images/sections/skills/agile.png
+    summary: "Formé et convaincu par la méthode Agile, j'adopte une approche Agile pour favoriser la collaboration, la réactivité et l'amélioration continue"
+    categories: ["method"]
 
   - name: JavaScript
     logo: /images/sections/skills/javascript.png
@@ -39,27 +44,32 @@ skills:
 
   - name: TypeScript
     logo: /images/sections/skills/typescript.png
-    summary: "Préférant développer dans un environnement objet strictement typé pour une meilleure robustesse, je préconise toujours l'utilisation de Typescript dans mes projets."
+    summary: "Préférant développer dans un environnement strict pour prévenir les erreurs, j'utilise TypeScript pour bénéficier de meilleurs outils de développement et écrire du code plus fiable, maintenable et structuré"
     categories: ["tech"]
+
+  - name: Mode sombre
+    logo: /images/sections/skills/moon.png
+    summary: "Parce que tout est plus classe dans l'obscurité ! J'ai une maitrise avancée du mode sombre dans mes outils, et mes yeux m'en remercient."
+    categories: ["other"]
 
   - name: Node.js
     logo: /images/sections/skills/nodejs.png
     summary: "Je manipule les basiques de la plateforme de sorte à être autonome tant côté front-end que back-end."
     categories: ["tech"]
 
-  - name: Agile
-    logo: /images/sections/skills/agile.png
-    summary: "Formé et convaincu par la méthode Agile, j'essaye d'appliquer et transmettre ses principes au quotidien."
-    categories: ["method"]
-
   - name: SCRUM
     logo: /images/sections/skills/scrum.png
-    summary: "Formé et expérimenté en SCRUM, j'ai essentiellement travaillé dans des équipes tranvaillant dans ce framework."
+    summary: "Formé et expérimenté en SCRUM, je sais travailler dans une collaboration constante, m'adapter et réagir au changement."
     categories: ["method"]
+
+  - name: SQL
+    logo: /images/sections/skills/sql.png
+    summary: "Capable d'écrire des requêtes claires et efficaces. Je maîtrise les fondamentaux. Toujours curieux d'optimiser mon approche et d'explorer les bonnes pratiques en gestion de données"
+    categories: ["tech"]
 
   - name: GitFlow
     logo: /images/sections/skills/gitflow.png
-    summary: "Je suis habitué à mettre en place et suivre GitFlow dans mes équipes."
+    summary: "Je suis habitué à mettre en place et suivre GitFlow pour structurer les branches d'un projet et faciliter la collaboration en équipe."
     categories: ["method"]
 
   - name: Programmation orientée objets (POO)
@@ -67,9 +77,9 @@ skills:
     summary: "Je suis capable de concevoir et d'appliquer les concepts clés la POO : encapsulation, abstraction, héritage et polymorphisme."
     categories: ["other"]
 
-  - name: API RESTful
+  - name: API REST
     logo: /images/sections/skills/api.png
-    summary: "Je peux concevoir et mettre en place une interface de programmation d'application pour gérer des ressources."
+    summary: "Je peux concevoir et mettre en place des interfaces de communication entre applications en utilisant les principes REST. Cela permet d'échanger des données de manière simple, rapide et fiable entre différents systèmes ou services."
     categories: ["other"]
 
   - name: Express.js
@@ -80,4 +90,9 @@ skills:
   - name: HTML5 et CSS
     logo: /images/sections/skills/html5.svg
     summary: "Je peux développer et styliser le template d'un composant ou d'une page web sans grande difficulté."
+    categories: ["tech"]
+
+  - name: Architecture en microservices
+    logo: /images/sections/skills/microservices.png
+    summary: "J'ai travaillé dans un environnement de microservices, où j'ai contribué à décomposer des applications complexes en services indépendants."
     categories: ["tech"]
